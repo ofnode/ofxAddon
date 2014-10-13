@@ -5,11 +5,10 @@
 class ofxAddon : public ofNode
 {
   public:
-     ofxAddon ();
-    ~ofxAddon ();
+     ofxAddon();
+    ~ofxAddon();
+
+    void update(ofEventArgs&);
 
   private:
-    void update (ofEventArgs&);
-
-    bool isRegistered;
 };
