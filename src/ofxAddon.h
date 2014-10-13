@@ -11,5 +11,5 @@ class ofxAddon : public ofNode
   private:
     void update (ofEventArgs&);
 
-    bool IsRegistered;
+    bool isRegistered;
 };

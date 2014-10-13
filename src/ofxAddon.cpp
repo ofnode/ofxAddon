@@ -2,16 +2,16 @@
 
 ofxAddon::ofxAddon()
 {
-  if(!IsRegistered) {
-    IsRegistered = true;
+  if(!isRegistered) {
+    isRegistered = true;
     ofAddListener(ofEvents().update, this, &ofxAddon::update);
   }
 }
 
 ofxAddon::~ofxAddon()
 {
-  if(IsRegistered) {
-    IsRegistered = false;
+  if(isRegistered) {
+    isRegistered = false;
     ofRemoveListener(ofEvents().update, this, &ofxAddon::update);
   }
 }
