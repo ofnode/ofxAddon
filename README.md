@@ -13,7 +13,7 @@ Download and extract folder to your `openFrameworks/addons` directory. Go to `op
 
 For [CMake-based openFrameworks][3]:
 
-Add this repo as a git submodule to your [ofApp][4] folder and use `ofxaddon(name)` command in `CMakeLists.txt` project file.
+Add this repo as a git submodule to your [ofApp][4] folder and use `ofxaddon` command in `CMakeLists.txt`.
 
 
 Examples
