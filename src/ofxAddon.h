@@ -5,10 +5,14 @@
 class ofxAddon : public ofNode
 {
   public:
+
      ofxAddon();
     ~ofxAddon();
+
+  protected:
 
     void update(ofEventArgs&);
 
   private:
+
 };
