@@ -1,7 +1,14 @@
 ofxAddon
 ========
 
+
 Description
+
+
+Dependencies
+------------
+
+#### 1. OF 0.9.0 and C++11
 
 
 Compiling
